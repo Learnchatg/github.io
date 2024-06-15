@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #8e61ff;
-    color: white;
+    background-color: #8161ff;
+    color: rgb(255, 255, 255);
     padding: 15px 0;
     text-align: center;
 }
@@ -39,7 +39,7 @@ section {
 }
 
 button {
-    background-color: #ff6f61;
+    background-color: #9e61ff;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #e55b50;
+    background-color: #e0e550;
 }
 
 .ice-cream-cart {
@@ -57,4 +57,17 @@ button:hover {
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+
+#cart-items button {
+    margin-left: 10px;
+    background-color: #9061ff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#cart-items button:hover {
+    background-color: #e55b50;
 }
